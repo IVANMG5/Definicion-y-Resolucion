@@ -2,8 +2,8 @@
 %School         :Tecnologico de Estudios Superiores de Jilotepec 
 %Specialty      :Ingeniería en Sistemas Computacionales 
 %Title          :Clasificacion de los números 
-%Description    :Scrip conceptos de números 
-%Author         :Iván Mora, Fernando Angel, Angelica Arellano  
+%Description    :Scrip conceptos  de los numeros
+%Author         :Iván Mora  Garcia, Fernando Angel Garcia Hernandez,Angelica Arellano Vilchiz
 %Date           :14/10/2021
 %Version        :1
 %Usage          :octave >/path/Definicion_Resolucion
