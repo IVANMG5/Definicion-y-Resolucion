@@ -24,11 +24,13 @@ ar = @(r) (2 * (pi)) * (r.^2) + (2./(r))
 %Función a plotear
 y = (2 * (pi)) * (r.^2) + (2./(r))
 
+resr = fminbnd(ar,0,1);
+
 %Dibujar r,y
 plot(r,y);
 
 grid on; 
-title(["Minimo material r " num2str(r)]);
+title(["Minimo material r " num2str(resr)]);
 xlabel(["Min r = " num2str(r)]);
-ylabel(["Min y = " num2str( ar(r))]);
+ylabel(["Min y = " num2str( ar(resr))]);
 
